@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    width: auto;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 280px;
+    height: 460px;
+    padding: 18px;
+    border-radius: 18px;
+    margin: 5rem 0 10rem 0;
+}
+
+.qr-code {
+    height: 60%;
+}
+
+.qr-code > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-description {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Outfit', sans-serif;
+    padding: 10px;
+}    
+
+.card-description > h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card-description > p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+}
