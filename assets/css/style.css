@@ -8,7 +8,7 @@ body {
     justify-content: center;    
 }
 
-.card {
+main {
     background-color: hsl(0, 0%, 100%);
     width: 300px;
     height: 460px;
@@ -17,37 +17,27 @@ body {
     margin: 5rem 0 10rem 0;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.103);
     text-align: center;
+    font-family: 'Outfit', sans-serif;
 }
 
-.qr-code {
-    height: 62%;
-}
-
-.qr-code > img {
+img {
     width: 100%;
-    height: 100%;
+    height: 62%;
     border-radius: 10px;
 }
 
-.card-description {
-    height: 34%;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Outfit', sans-serif;
-    padding: 25px;
-    gap: 16px;
-}    
-
-.card-description > h1 {
+h1 {
     color: hsl(218, 44%, 22%);
     font-size: 22px;
     font-weight: 700;
     line-height: 1.3em;
+    padding: 20px 25px 7px 25px;
 }
 
-.card-description > p {
+p {
     color: hsl(220, 15%, 55%);
     font-size: 15px;
     font-weight: 400;
     line-height: 1.4em;
+    padding: 7px 25px 20px 25px;
 }
